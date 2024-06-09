@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>دعوت‌نامه نامزدی</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            background-color: #f7f7f7;
+            text-align: center;
+            padding: 50px;
+        }
+        .envelope {
+            width: 300px;
+            height: 200px;
+            position: relative;
+            margin: 0 auto;
+            background: #f1f1f1;
+            border: 2px solid #ccc;
+            border-radius: 10px;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .card {
+            width: 260px;
+            height: 160px;
+            background: #fff;
+            position: absolute;
+            bottom: -200px;
+            left: 20px;
+            transition: all 1s ease;
+        }
+        .envelope:hover .card {
+            bottom: 20px;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>برای دیدن کارت دعوت، روی نامه کلیک کنید</h1>
+    <div class="envelope">
+        <div class="card">
+            <img src="https://i.postimg.cc/Y9B7KJY2/Engagement-invitation.png" alt="کارت دعوت">
+        </div>
+    </div>
+</body>
+</html>
